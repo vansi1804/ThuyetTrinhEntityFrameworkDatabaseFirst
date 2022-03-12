@@ -16,7 +16,7 @@ namespace ASP.NET_DBFirst
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Employee", action = "EmployeeList", id = UrlParameter.Optional }
+                defaults: new { controller = "Employees", action = "ListView", id = UrlParameter.Optional }
             );
         }
     }
